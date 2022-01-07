@@ -1,0 +1,35 @@
+body {
+}
+
+#NavBar{
+    background-color:#898585;
+    border-block: 2px solid black;
+    height:55px;
+}
+
+#HeaderT {
+    color: black;
+    font-weight: 700;
+    padding: 15px;
+}
+
+#chicken, #Beef, #Sushi {
+    color: white;
+    background-color: #534e4e;
+    height: auto;
+    padding:25px;
+    margin-bottom: 25px;
+}
+
+#HeaderT2 {
+    color: white;
+    font-weight: 700;
+    padding: 15px;
+}
+
+@media (max-width: 767px){
+
+    #mainContainer {
+        width: 80%;
+    }
+}
